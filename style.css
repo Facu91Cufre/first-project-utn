@@ -1,0 +1,120 @@
+/*Portfolio Image Styles*/
+
+.cont-portfolio {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-portfolio p {
+    color: white;
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+/*Grid Styles*/
+
+.cont-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 40px;
+}
+
+/*Boxes Styles*/
+
+.grid-box {
+    width: 350px;
+    background-color: #f0ebe3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 0px 17px 3px rgba(0,0,0,0.36);
+    justify-self: center;
+    margin: 20px;
+}
+.cont-img {
+    width: 300px;
+    padding: 25px;
+    background-color: #b29ecf;
+    margin: auto;
+}
+
+.cont-img  img {
+    width: 100%;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid-box p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.cont-buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+button {
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+/*Form Styles*/
+
+h1 {
+    font-size: 50px;
+    padding: 30px;
+}
+
+.cont-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.cont-form form {
+    width: 500px;
+    margin: auto;
+}
+
+
+hr {
+    margin: 50px;
+}
+
+@media (max-width: 1210px) {
+
+    .cont-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 40px;
+    }
+
+}
+
+@media (max-width: 815px) {
+    .cont-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 40px;
+    }
+}
+
